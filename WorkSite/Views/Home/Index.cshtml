@@ -1,0 +1,16 @@
+﻿@model HomeModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Art Display</h1>
+    <p class="lead">This is a sandbox site used to test out things.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Project Overviews</h2>
+            @Html.Partial("_projectOverviews", Model.Overviews)
+    </div>
+</div>

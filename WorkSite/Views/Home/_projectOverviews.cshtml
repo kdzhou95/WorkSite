@@ -1,0 +1,12 @@
+﻿@model OverviewsViewModel
+@{
+    ViewBag.Title = "Project Overviews";
+}
+
+<div>
+    @foreach (var overview in Model.Overviews)
+            {
+                <h3>overview.name</h3>
+            }
+</div>
+
