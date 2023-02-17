@@ -51,6 +51,8 @@ C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\roslyn\vbc.rsp
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\roslyn\VBCSCompiler.exe
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\Antlr3.Runtime.dll
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\EntityFramework.dll
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\EntityFramework.SqlServer.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.Annotation.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.Mvc.dll
@@ -66,6 +68,8 @@ C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Web.WebPages.Deploymen
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Web.WebPages.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Web.WebPages.Razor.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\WebGrease.dll
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\EntityFramework.xml
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\EntityFramework.SqlServer.xml
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.pdb
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.xml
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.Annotation.pdb

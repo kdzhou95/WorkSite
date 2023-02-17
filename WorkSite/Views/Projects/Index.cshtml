@@ -1,0 +1,17 @@
+﻿@model ProjectsViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Projects</h2>
+
+<div>
+    <div>
+        @foreach (var project in Model.Projects)
+        {
+            <h3>@project.Name</h3>
+            <p>@project.Type</p>
+        }
+    </div>
+</div>

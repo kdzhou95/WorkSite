@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using WorkSite.Clients.Models;
 using WorkSite.Models.Home;
 
@@ -22,7 +19,8 @@ namespace WorkSite.Mappings
             {
                 Overviews = new List<ProjectOverviewModel>()
             };
-            foreach (var project in projects){
+            foreach (var project in projects)
+            {
                 overviewsModel.Overviews.Add(MapToProjectOverviewModel(project));
             }
 

@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using LightInject;
 using System.Web.Mvc;
-using WorkSite.Mappings;
-using LightInject;
 using WorkSite.Clients;
+using WorkSite.Mappings;
 namespace WorkSite.Controllers
 {
     public class HomeController : Controller
@@ -27,11 +23,11 @@ namespace WorkSite.Controllers
             return View(model);
         }
 
-        public ActionResult About()
+        public ActionResult Projects()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Projects page.";
 
-            return View();
+            return RedirectToAction("Index", "Projects");
         }
 
         public ActionResult Contact()
