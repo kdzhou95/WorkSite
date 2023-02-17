@@ -9,9 +9,9 @@ namespace WorkSite.Mappings
 {
     public static class HomeMappings
     {
-        public static HomeModel MapToHomeModel(IEnumerable<Project> projects)
+        public static HomeViewModel MapToHomeModel(IEnumerable<Project> projects)
         {
-            return new HomeModel
+            return new HomeViewModel
             {
                 Overviews = MapToOverviewProjectsViewModel(projects)
             };

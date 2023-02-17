@@ -16,15 +16,15 @@ namespace WorkSite.Controllers
         public ActionResult Index()
         {
             var projects = _dataClient.GetProjects();
-            var overviewsModel = HomeMappings.MapToHomeModel(projects);
-            return View();
+            var model = HomeMappings.MapToHomeModel(projects);
+            return View(model);
         }
 
         public ActionResult _ProjectsOverview()
         {
             var projects = _dataClient.GetProjects();
-            var overviewsModel = HomeMappings.MapToOverviewProjectsViewModel(projects);
-            return View(overviewsModel);
+            var model = HomeMappings.MapToOverviewProjectsViewModel(projects);
+            return View(model);
         }
 
         public ActionResult About()

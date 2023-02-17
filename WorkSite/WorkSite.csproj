@@ -136,7 +136,7 @@
     <Compile Include="DependencyResolution\BootStrapper.cs" />
     <Compile Include="DependencyResolution\DependencyLoader.cs" />
     <Compile Include="Mappings\HomeMappings.cs" />
-    <Compile Include="Models\Home\HomeModel.cs" />
+    <Compile Include="Models\Home\HomeViewModel.cs" />
     <Compile Include="Models\Home\OverviewsViewModel.cs" />
     <Compile Include="Models\Shared\ProjectViewModel.cs" />
     <Compile Include="Models\Home\ProjectOverviewModel.cs" />
