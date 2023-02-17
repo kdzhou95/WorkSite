@@ -10,7 +10,6 @@ namespace WorkSite.Clients
     {
         void RegisterProjectsData();
         void Initialize();
-
         IEnumerable<Project> GetProjects(); 
     }
 }

@@ -10,6 +10,11 @@ namespace WorkSite.Clients
     {
         public IList<Project> Data { get; set; }
 
+        public DataClient()
+        {
+            Data = new List<Project>();
+            Initialize();
+        }
         public void RegisterProjectsData()
         {
             Data.Add(ProjectMappings.MapToProjectModel(1, "Ship Model", "3D Model/Print", ProjectStatus.P1Designing, startDate:DateTime.Parse("11/15/2020")));    

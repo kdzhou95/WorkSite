@@ -18,7 +18,10 @@ namespace WorkSite.Mappings
         }
         public static OverviewsViewModel MapToOverviewProjectsViewModel(IEnumerable<Project> projects)
         {
-            var overviewsModel = new OverviewsViewModel();
+            var overviewsModel = new OverviewsViewModel()
+            {
+                Overviews = new List<ProjectOverviewModel>()
+            };
             foreach (var project in projects){
                 overviewsModel.Overviews.Add(MapToProjectOverviewModel(project));
             }

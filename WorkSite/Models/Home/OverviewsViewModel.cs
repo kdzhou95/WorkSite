@@ -8,5 +8,10 @@ namespace WorkSite.Models.Home
     public class OverviewsViewModel
     {
         public IList<ProjectOverviewModel> Overviews { get; set; }
+
+        public OverviewsViewModel()
+        {
+            Overviews = new List<ProjectOverviewModel> ();
+        }
     }
 }
