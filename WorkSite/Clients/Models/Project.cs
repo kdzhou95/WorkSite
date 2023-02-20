@@ -20,7 +20,7 @@ namespace WorkSite.Clients.Models
 
         public DateTime? CompleteDate { get; set; }
 
-        public string FilePath { get; set; }
+        public string SourceFilePath { get; set; }
 
         public string PreviewPath { get; set; }
     }

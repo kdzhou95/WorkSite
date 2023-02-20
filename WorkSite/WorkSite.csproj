@@ -200,6 +200,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Media\" />
     <Folder Include="Models\Shared\" />
   </ItemGroup>
   <ItemGroup>

@@ -21,6 +21,6 @@ namespace WorkSite.Models.Projects
 
         public DateTime? CompleteDate { get; set; }
 
-        public string FilePath { get; set; }
+        public string SourceFilePath { get; set; }
     }
 }
