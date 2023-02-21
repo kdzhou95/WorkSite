@@ -32,7 +32,7 @@ namespace WorkSite.Mappings
             return new ProjectOverviewModel
             {
                 Id = project.Id,
-                Name = project.Name,
+                ProjectName = project.ProjectName,
                 Description = project.Description,
                 Status = project.Status
             };

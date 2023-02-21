@@ -29,7 +29,7 @@ namespace WorkSite.Clients
             Data.Add(new Project
             {
                 Id = id,
-                Name = name,
+                ProjectName = name,
                 Type = type,   
                 Status = status,
                 StartDate = startDate,
@@ -43,7 +43,7 @@ namespace WorkSite.Clients
             Data.Add(new Project
             {
                 Id = availableId,
-                Name = addProjectModel.Name,
+                ProjectName = addProjectModel.ProjectName,
                 Description = addProjectModel.Description,
                 Specifications = addProjectModel.Specifications,
                 Type = addProjectModel.Type,

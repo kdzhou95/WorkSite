@@ -17,7 +17,7 @@ namespace WorkSite.Mappings
                 projects.Add(new ProjectModel
                 {
                     Id = project.Id,
-                    Name = project.Name,
+                    ProjectName = project.ProjectName,
                     Description = project.Description,
                     Specifications = project.Specifications,
                     Type = project.Type,

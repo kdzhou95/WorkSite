@@ -24,6 +24,11 @@ namespace WorkSite.Controllers
             return View();
         }
 
+        public ActionResult _AddProject()
+        {
+            return View();
+        }
+
         [HttpPost]
         public ActionResult RemoveProject(int id)
         {
