@@ -3,6 +3,9 @@ using LightInject;
 using WorkSite.Clients;
 using WorkSite.Mappings;
 using WorkSite.Models.Projects;
+using FluentValidation.Mvc;
+using WorkSite.Resources;
+
 namespace WorkSite.Controllers
 {
     public class ProjectsController : Controller
@@ -18,7 +21,7 @@ namespace WorkSite.Controllers
         }
 
         [HttpPost]
-        public ActionResult AddProject(AddProjectModel project)
+        public ActionResult AddProject([CustomizeValidator(RuleSet = RuleSets.AddProject)] AddProjectModel project)
         {
             _dataClient.AddProject(project);
             return View();
@@ -26,7 +29,8 @@ namespace WorkSite.Controllers
 
         public ActionResult _AddProject()
         {
-            return View();
+            var model = ProjectsMappings.MapToAddProjectWizardModel();
+            return View(model);
         }
 
         [HttpPost]

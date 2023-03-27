@@ -33,5 +33,18 @@ namespace WorkSite.Mappings
                 Projects = projects
             };
         }
+
+        public static AddProjectWizardModel MapToAddProjectWizardModel()
+        {
+            return new AddProjectWizardModel()
+            {
+                AddProjectModel = MapToAddProjectModel()
+            };
+        }
+
+        public static AddProjectModel MapToAddProjectModel()
+        {
+            return new AddProjectModel();
+        }
     }
 }

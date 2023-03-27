@@ -1,4 +1,4 @@
-﻿@model AddProjectModel
+﻿@model AddProjectWizardModel
 
 
 <div class="jumbotron">
@@ -12,12 +12,12 @@
         @using (Html.BeginForm("AddProject", "Projects", FormMethod.Post, new { @class = "add-resource-form" }))
         {
             <div class="form-group">
-                @Html.LabelFor(x => x.ProjectName, new {  @class = "control-label", autocomplete = "off"})
+                @Html.LabelFor(x => x.AddProjectModel.ProjectName, new {  @class = "control-label", autocomplete = "off"})
                 <div class="row">
                     <div class="col-sm-8">
-                        @Html.TextBoxFor(x => x.ProjectName, new { @class = "form-control", autocomplete = "off"})
-                        <div>@Html.ValidationMessageFor(x => x.ProjectName)</div>
-                    </div>
+                        @Html.TextBoxFor(x => x.AddProjectModel.ProjectName, new { @class = "form-control", autocomplete = "off"})
+                        <div>@Html.ValidationMessageFor(x => x.AddProjectModel.ProjectName)</div>
+                    </div>+
                 </div>
             </div>
         }

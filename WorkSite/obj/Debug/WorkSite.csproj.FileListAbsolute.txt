@@ -53,6 +53,9 @@ C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\roslyn\VBCSCompiler.exe.confi
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\Antlr3.Runtime.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\EntityFramework.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\EntityFramework.SqlServer.dll
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\FluentValidation.dll
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\FluentValidation.Mvc.dll
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\FluentValidation.ValidatorAttribute.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.Annotation.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.Mvc.dll
@@ -60,6 +63,9 @@ C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.Web.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\Newtonsoft.Json.dll
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.ComponentModel.Annotations.dll
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Threading.Tasks.Extensions.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Web.Helpers.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Web.Mvc.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Web.Optimization.dll
@@ -70,12 +76,16 @@ C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Web.WebPages.Razor.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\WebGrease.dll
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\EntityFramework.xml
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\EntityFramework.SqlServer.xml
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\FluentValidation.xml
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\FluentValidation.Mvc.xml
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.pdb
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.xml
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.Annotation.pdb
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.Mvc.pdb
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.Web.pdb
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\LightInject.Web.xml
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Web.Helpers.xml
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Web.Mvc.xml
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Web.Optimization.xml
