@@ -23,14 +23,18 @@ namespace WorkSite.Controllers
         [HttpPost]
         public ActionResult AddProject([CustomizeValidator(RuleSet = RuleSets.AddProject)] AddProjectModel project)
         {
-            _dataClient.AddProject(project);
+            if (!ModelState.IsValid)
+            {
+                return PartialView("_AddProject", project);
+            }
+            //_dataClient.AddProject(project);
             return View();
         }
 
         public ActionResult _AddProject()
         {
             var model = ProjectsMappings.MapToAddProjectWizardModel();
-            return View(model);
+            return View("_AddProjectWizard", model);
         }
 
         [HttpPost]

@@ -2,7 +2,7 @@
 using System.Web.Optimization;
 using System.Web.Routing;
 using WorkSite.DependencyResolution;
-
+using FluentValidation.Mvc;
 
 namespace WorkSite
 {
@@ -14,6 +14,7 @@ namespace WorkSite
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            FluentValidationModelValidatorProvider.Configure();
             BootStrapper.ConfigureLightInject();
         }
     }

@@ -1,8 +1,10 @@
-﻿using System;
+﻿using FluentValidation.Attributes;
+using System;
 using System.ComponentModel.DataAnnotations;
-
+using WorkSite.Validation.Projects;
 namespace WorkSite.Models.Projects
 {
+    [Validator(typeof(AddProjectValidator))]
     public class AddProjectModel
     {
         [Display(Name = "Project Name")]

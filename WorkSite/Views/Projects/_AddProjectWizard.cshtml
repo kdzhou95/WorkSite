@@ -1,0 +1,12 @@
+﻿@model AddProjectWizardModel
+@{
+    ViewBag.Title = "Add Project";
+}
+<div class="jumbotron">
+    <h1>Add A New Project Display</h1>
+</div>
+<div class="row">
+    <div class="add-project-container">
+        @Html.Partial("_AddProject", Model.AddProjectModel)
+    </div>
+</div>
