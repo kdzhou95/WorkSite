@@ -8,6 +8,19 @@ namespace WorkSite
         // For more information on bundling, visit https://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
+            RegisterScripts(bundles);
+            RegisterStyles(bundles);
+        }
+
+        public static void RegisterStyles(BundleCollection bundles)
+        {
+            bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/bootstrap.css",
+                      "~/Content/site.css"));
+        }
+
+        public static void RegisterScripts(BundleCollection bundles)
+        {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
@@ -22,9 +35,12 @@ namespace WorkSite
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+            bundles.Add(new ScriptBundle("~/scripts/project").Include(
+                "~/Scripts/worksite.project.shared.js",
+                "~/Scripts/worksite.project.js"));
+
+            bundles.Add(new ScriptBundle("~/scripts/utilities").Include(
+                "~/Scripts/utilities.js"));
         }
     }
 }

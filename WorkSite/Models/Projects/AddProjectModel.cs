@@ -18,7 +18,7 @@ namespace WorkSite.Models.Projects
 
         public string Status { get; set; }
 
-        [Display(Name = "Start Name")]
+        [Display(Name = "Start Date")]
         public DateTime? StartDate { get; set; }
 
         [Display(Name = "Complete Name")]

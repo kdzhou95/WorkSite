@@ -31,10 +31,11 @@ namespace WorkSite.Controllers
             return View();
         }
 
+        [HttpGet]
         public ActionResult _AddProject()
         {
-            var model = ProjectsMappings.MapToAddProjectWizardModel();
-            return View("_AddProjectWizard", model);
+            var model = ProjectsMappings.MapToAddProjectModel();
+            return View("_AddProject", model);
         }
 
         [HttpPost]

@@ -8,71 +8,76 @@
     </div>
 </div>
 
-<div>
-    @using (Html.BeginForm("AddProject", "Projects", FormMethod.Post, new { @class = "add-projects-form" }))
+<div class="add-project-container">
+    @using (Html.BeginForm("AddProject", "Projects", FormMethod.Post, new { @class = "add-project-form" }))
     {
         <div class="form-group">
             @Html.LabelFor(x => x.ProjectName, new { @class = "control-label", autocomplete = "off" })
             <div class="row">
                 <div class="col-sm-8">
                     @Html.TextBoxFor(x => x.ProjectName, new { @class = "form-control", autocomplete = "off" })
-                    <div>@Html.ValidationMessageFor(x => x.ProjectName)</div>
                 </div>
             </div>
             @Html.LabelFor(x => x.Description, new { @class = "control-label", autocomplete = "off" })
             <div class="row">
                 <div class="col-sm-8">
                     @Html.TextBoxFor(x => x.Description, new { @class = "form-control", autocomplete = "off" })
-                    <div>@Html.ValidationMessageFor(x => x.Description)</div>
                 </div>
             </div>
             @Html.LabelFor(x => x.Specifications, new { @class = "control-label", autocomplete = "off" })
             <div class="row">
                 <div class="col-sm-8">
                     @Html.TextBoxFor(x => x.Specifications, new { @class = "form-control", autocomplete = "off" })
-                    <div>@Html.ValidationMessageFor(x => x.Specifications)</div>
                 </div>
             </div>
             @Html.LabelFor(x => x.Type, new { @class = "control-label", autocomplete = "off" })
             <div class="row">
                 <div class="col-sm-8">
                     @Html.TextBoxFor(x => x.Type, new { @class = "form-control", autocomplete = "off" })
-                    <div>@Html.ValidationMessageFor(x => x.Type)</div>
                 </div>
             </div>
             @Html.LabelFor(x => x.Status, new { @class = "control-label", autocomplete = "off" })
             <div class="row">
                 <div class="col-sm-8">
                     @Html.TextBoxFor(x => x.Status, new { @class = "form-control", autocomplete = "off" })
-                    <div>@Html.ValidationMessageFor(x => x.Status)</div>
                 </div>
             </div>
             @Html.LabelFor(x => x.StartDate, new { @class = "control-label", autocomplete = "off" })
             <div class="row">
                 <div class="col-sm-8">
                     @Html.TextBoxFor(x => x.StartDate, new { @class = "form-control", autocomplete = "off" })
-                    <div>@Html.ValidationMessageFor(x => x.StartDate)</div>
                 </div>
             </div>
             @Html.LabelFor(x => x.CompleteDate, new { @class = "control-label", autocomplete = "off" })
             <div class="row">
                 <div class="col-sm-8">
                     @Html.TextBoxFor(x => x.CompleteDate, new { @class = "form-control", autocomplete = "off" })
-                    <div>@Html.ValidationMessageFor(x => x.CompleteDate)</div>
                 </div>
             </div>
             @Html.LabelFor(x => x.SourceFilePath, new { @class = "control-label", autocomplete = "off" })
             <div class="row">
                 <div class="col-sm-8">
                     @Html.TextBoxFor(x => x.SourceFilePath, new { @class = "form-control", autocomplete = "off" })
-                    <div>@Html.ValidationMessageFor(x => x.SourceFilePath)</div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <button type="button" class="btn btn-sm btn-primary add-project-btn" data-action="@Url.Action("AddProject", "Projects")" data-redirect="@Url.Action("Index", "Project")">
+                Create
+            </button>
+        </div>
     }
-    <div class="row">
-        <button type="button" class="btn btn-sm btn-primary" data-action="@Url.Action("AddProject", "Project")" data-redirect="@Url.Action("Index", "Project")">
-            Create
-        </button>
-    </div>
 </div>
+
+@section scripts
+{
+    @Scripts.Render("~/scripts/utilities")
+    @Scripts.Render("~/scripts/project")
+
+    <script>
+        $(document).ready(function () {
+            project.init();
+        });
+    </script>
+}
+
