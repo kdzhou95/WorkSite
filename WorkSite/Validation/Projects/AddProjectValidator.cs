@@ -28,7 +28,6 @@ namespace WorkSite.Validation.Projects
                     .WithMessage("Status must not be empty");
 
                 RuleFor(m => m.StartDate)
-                    .NotEmpty()
                     .NotNull()
                     .WithMessage("Start date must not be empty");
 

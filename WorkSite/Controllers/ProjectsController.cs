@@ -27,8 +27,8 @@ namespace WorkSite.Controllers
             {
                 return PartialView("_AddProject", project);
             }
-            //_dataClient.AddProject(project);
-            return View();
+            _dataClient.AddProject(project);
+            return View("Index");
         }
 
         [HttpGet]
