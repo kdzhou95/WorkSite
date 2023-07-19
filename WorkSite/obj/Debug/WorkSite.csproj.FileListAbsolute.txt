@@ -199,6 +199,7 @@ C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\System.Web.WebPages.Razor.xml
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\Newtonsoft.Json.xml
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\Antlr3.Runtime.pdb
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kdzhou\source\repos\WorkSite\WorkSite\obj\Debug\WorkSite.csproj.AssemblyReference.cache
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\obj\Debug\WorkSite.csproj.CoreCompileInputs.cache
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\obj\Debug\WorkSite.csproj.CopyComplete
 C:\Users\kdzhou\source\repos\WorkSite\WorkSite\obj\Debug\WorkSite.dll
