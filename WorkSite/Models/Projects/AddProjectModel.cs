@@ -21,7 +21,7 @@ namespace WorkSite.Models.Projects
         [Display(Name = "Start Date")]
         public DateTime? StartDate { get; set; }
 
-        [Display(Name = "Complete Name")]
+        [Display(Name = "Complete Date")]
         public DateTime? CompleteDate { get; set; }
 
         public string SourceFilePath { get; set; }
